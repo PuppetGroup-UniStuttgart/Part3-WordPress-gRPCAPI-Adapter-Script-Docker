@@ -1,5 +1,4 @@
-version: '2'
-services:
+
    grpc:
       container_name: grpc
       build: ../grpc/
