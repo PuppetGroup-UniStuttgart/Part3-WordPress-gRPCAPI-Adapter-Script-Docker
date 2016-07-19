@@ -16,8 +16,8 @@ services:
       environment:
          - API_HOST=grpc
          - API_PORT=50051
-      ports:
-         - "8080:8080"
+      expose:
+         - "8080"
    script:
       build: ../script/
       links:
